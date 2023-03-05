@@ -16,10 +16,6 @@
     /* border: 1px solid #ededed; */
 }
 
-.cardBox{
-    
-}
-
 .cardImg{
     width: 320px;
     height: 300px;
@@ -94,7 +90,7 @@
   grid-auto-rows: 1fr;
   align-items: start;
   height: fit-content;
-
+  padding-top: 20px;
 }
 
 .cardsWrap{

@@ -1,4 +1,4 @@
-import { signOut, signInWithEmailAndPassword } from 'firebase/auth'
+import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../firebase/clientApp'
 
 import { useEffect, useState } from 'react'

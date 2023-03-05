@@ -12,8 +12,7 @@ interface IGButton {
 }
 
 const GoogleButton = ({ handleUser }: IGButton) => {
-    const signWithGoogle = () => {
-        console.log('signWithGoogle')
+    const signWithGoogle = (): void => {
         signInWithPopup(auth, provider)
             .then((result) => {
                 const credential =
@@ -30,7 +29,7 @@ const GoogleButton = ({ handleUser }: IGButton) => {
                 const email = error.customData.email
 
                 const credential = GoogleAuthProvider.credentialFromError(error)
-                console.error(errorCode, errorMessage, email)
+                console.error(errorMessage, email)
             })
     }
 
