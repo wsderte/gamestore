@@ -1,0 +1,133 @@
+.footerWrap {
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    background-color: #2c3338;
+
+    height: 5vh;
+    min-height: 5vh;
+
+    /* position: absolute;
+    z-index: 101;
+    bottom:0; */
+
+}
+
+.footerContainer {
+    /* padding: 80px 424px 40px; */
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+
+    /* width: 1440px; */
+    /* height: 340px; */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footerHeader {
+    width: 33vw;
+    min-width: 142px;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* font-size: 56px; */
+
+    letter-spacing: -0.02em;
+
+    color: rgba(227, 228, 230, 0.55); 
+}
+
+.footerText {
+    width: 592px;
+    /* height: 27px; */
+
+    font-size: 18px;
+    /* line-height: 150%; */
+
+    text-align: center;
+
+    color: rgba(227, 228, 230, 0.55);
+}
+
+.footerEndText {
+    width: 33vw;
+    min-width: 132px;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /* line-height: 150%; */
+
+    color: rgba(227, 228, 230, 0.55);
+}
+
+.footerIconsBox {
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    gap: 56px;
+
+    min-width: 150px;
+    width: 34vw;
+    /* height: 48px; */
+}
+
+.white{
+    color: white;
+}
+
+.socialImage {
+    color: rgba(227, 228, 230, 0.55);
+}
+
+.socialImage:hover {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .footerIconsBox {
+      gap: 20px;
+    }
+}
+
+@media (max-width: 444px) {
+    .footerHeader {
+     width: 100%;
+    }
+
+    .footerEndText {
+     width: 100%;
+    }
+
+    .footerIconsBox {
+      gap: 20px;
+      width: 100%;
+    }
+
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerWrap {
+        height: 100%;
+    }
+    
+}

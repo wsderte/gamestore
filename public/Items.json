@@ -1,0 +1,56 @@
+{
+    "items": {
+        "bootstrap": [
+            {
+                "id": 1,
+                "title": "Gothic II",
+                "body": "PC",
+                "imageUrl": "https://images7.alphacoders.com/583/thumb-1920-583750.jpg",
+                "price": 1300,
+                "date": "20.20.2020",
+                "developer": "Warner",
+                "rating": 10
+            },
+            {
+                "id": 2,
+                "title": "Sonic",
+                "body": "PC, PS5, PS4, Switch",
+                "imageUrl": "https://www.mirf.ru/wp-content/uploads/2022/12/0.jpeg",
+                "price": 2300,
+                "date": "20.20.2020",
+                "developer": "Warner",
+                "rating": 23
+            },
+            {
+                "id": 3,
+                "title": "Elden Ring",
+                "body": "PS5, PS4, Xbox, PC",
+                "imageUrl": "https://images4.alphacoders.com/115/thumb-1920-1151249.jpg",
+                "price": 2700,
+                "date": "20.20.2020",
+                "developer": "Warner",
+                "rating": 15
+            },
+            {
+                "id": 4,
+                "title": "Spider-Man",
+                "body": "PS5, PS4",
+                "imageUrl": "https://images7.alphacoders.com/108/thumb-1920-1082482.jpg",
+                "price": 1700,
+                "date": "20.20.2020",
+                "developer": "Warner",
+                "rating": 7
+            },
+            {
+                "id": 5,
+                "imageUrl": "https://images3.alphacoders.com/130/1303122.jpg",
+                "title": "NBA 2K23",
+                "body": "PS5, PS4, Xbox, PC",
+                "price": 700,
+                "date": "20.20.2020",
+                "developer": "Warner",
+                "rating": 13
+            }
+        ]
+    }
+}
