@@ -90,7 +90,8 @@
   grid-auto-rows: 1fr;
   align-items: start;
   height: fit-content;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  /* margin-bottom: 20px; */
 }
 
 .cardsWrap{
@@ -118,7 +119,7 @@
   /* background: #15273b; */
   padding: 7px;
   width: fit-content;
-  height: 30px;
+  height: 45px;
   border-radius: 10px;
   padding-left: 22px;
  
